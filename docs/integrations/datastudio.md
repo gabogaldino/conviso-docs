@@ -1,50 +1,15 @@
 ---
 id: datastudio
-title: Google Data Studio
-sidebar_label: Google Data Studio
+title: Google Looker Studio
+sidebar_label: Google Looker Studio
 ---
 
-<div style={{textAlign: 'center'}}>
+# Introduction
+[Google Looker Studio](https://datastudio.google.com/) is a powerful business intelligence tool that allows users to generate customized reports and extract data for analysis on BI platforms. This document provides instructions on integrating the Conviso Platform with Google Looker Studio.
 
-![img](../../static/img/datastudio.png)
+## Usage
 
-</div>
-
-## Introduction
-
-Through the Business Intelligence integration, it is possible to optimize time by easily issuing customized reports, in addition to allowing data to be extracted and consumed on BI platforms.
-
-## Endpoints
-
-To use this feature, access the menu **Integrations** and then **Business Intelligence** at the right panel and click at the **Integrate** button:
-
-<div style={{textAlign: 'center'}}>
-
-![img](../../static/img/bi-img1.png)
-
-</div>
-
-To analyze data on your BI platform, there are 4 types of endpoints that allow the user to generate .JSON file and feed the BI tool: 
-
-- Deploys
-
-- Projects
-
-- Assets
-
-- Users
-
-<div style={{textAlign: 'center'}}>
-
-![img](../../static/img/bi-img2.png)
-
-</div>
-
-To create a connector with the BI tool, just copy the **Conviso Platform URL** (https://app.convisoappsec.com/), the **Endpoint**, and your **x-api-key** (you can generate your x-api-key by following the instructions [here](../../api/generate-apikey)) and insert the parameters at the BI tool you are using.
-
-## Google Data Studio Setup
-
-Log on to **Google Data Studio** [here](https://datastudio.google.com/), click at **Create** button and choose **Report**:
+Access the **Integrations (1)** menu in the Conviso Platform. Navigate to the **Business Intelligence (2)** section in the right panel. Click on the "**Integrate**" **(3)** button.
 
 <div style={{textAlign: 'center'}}>
 
@@ -52,7 +17,13 @@ Log on to **Google Data Studio** [here](https://datastudio.google.com/), click a
 
 </div>
 
-At the search box, search for ```JSON/CSV/XML``` and select the **JSON/CSV/XML Connector**:
+There are four types of endpoints available to generate a JSON file and feed the BI tool:
+
+* **Deploys:** Returns a JSON with all company deployments.
+* **Projects:** Returns all projects linked to the user's scope.
+* **Assets:**  Returns all company assets.
+* **Users:** Returns a JSON with all company users.
+
 
 <div style={{textAlign: 'center'}}>
 
@@ -60,7 +31,16 @@ At the search box, search for ```JSON/CSV/XML``` and select the **JSON/CSV/XML C
 
 </div>
 
-Now you have to authorize Data Studio to use a Google user account. To do so, click at the button **Authorize**:
+To create a connector with your BI tool, you will need the following information:
+* **Conviso Platform URL:** Use the URL ```https://app.convisoappsec.com/```.
+* **Endpoint:** Select one of the four available endpoints mentioned above.
+* **x-API-key:** Generate your API Key by following the instructions provided [here](../api/generate-apikey.md).
+
+## Google Looker Studio Setup
+
+To set up Conviso Platform integration with Google Data Studio, follow these steps:
+
+**Step 1 -** Log in to your Google Data Studio account. Click on the **"Create" (1)** button and select "**Report"(2)** from the menu:
 
 <div style={{textAlign: 'center'}}>
 
@@ -68,7 +48,8 @@ Now you have to authorize Data Studio to use a Google user account. To do so, cl
 
 </div>
 
-A floating window will be shown for **user selection**. Select your user (or provide an existing user credentials) by clicking over it:
+
+**Step 2 -** In the search box, **search for ```JSON/CSV/XML```(1)** and choose the "**JSON/CSV/XML Connector" (2):**
 
 <div style={{textAlign: 'center'}}>
 
@@ -76,7 +57,8 @@ A floating window will be shown for **user selection**. Select your user (or pro
 
 </div>
 
-A new floating window will be shown. Click at the **Allow** button to allow the connector to access the provided Google user account: 
+
+**Step 3 -** Click on the "**Authorize**" button to grant Data Studio access to your Google user account:
 
 <div style={{textAlign: 'center'}}>
 
@@ -84,7 +66,8 @@ A new floating window will be shown. Click at the **Allow** button to allow the 
 
 </div>
 
-Next, click the **Authorize** button below the **JSON/CSV/XML** authorization box:
+
+**Step 4 -** Select your **user account** or provide an existing user's credentials in the floating window that appears and click on the "**Allow**" button to grant access to the connector.
 
 <div style={{textAlign: 'center'}}>
 
@@ -92,7 +75,8 @@ Next, click the **Authorize** button below the **JSON/CSV/XML** authorization bo
 
 </div>
 
-Finally, click at the **close icon** to close the **Supermetrics** floating window:
+
+**Step 5 -** Click on the "**Authorize**" button below the ```JSON/CSV/XML``` authorization box.
 
 <div style={{textAlign: 'center'}}>
 
@@ -100,7 +84,8 @@ Finally, click at the **close icon** to close the **Supermetrics** floating wind
 
 </div>
 
-This windows will be shown. We will fill this form with the following data: **Data Type**, **Source URL or Google Drive path** and **HTTP headers**: 
+
+**Step 6 -** Finally, click on the **close icon to close the Supermetrics floating** window. The following window will be displayed. Fill in the form with the following data:
 
 <div style={{textAlign: 'center'}}>
 
@@ -108,11 +93,11 @@ This windows will be shown. We will fill this form with the following data: **Da
 
 </div>
 
-1. At **Data Type**, select **JSON**;
-2. At **Source URL or Google Drive path**, insert ```https://app.convisoappsec.com/api/v2/projects```;
-3. At **HTTP headers**, insert ```x-api-key:<your-generated-api-key>```.
+* **Data Type (1):** Select ```JSON```.
+* **Source URL or Google Drive path (2):** Insert ```https://app.convisoappsec.com/api/v2/projects```
+* **HTTP headers (3):** Enter "x-api-key:< your-generated-api-key >”. [Check here](../api/generate-apikey.md) to find out how to find it.
 
-When done filling the form, click at the button **Add**, in the lower right corner:
+Once you have filled in the form, click on the "**Add**" button in the lower right corner. A confirmation window will appear. Click on the **"Add to Report**" button to save the configuration.
 
 <div style={{textAlign: 'center'}}>
 
@@ -120,18 +105,15 @@ When done filling the form, click at the button **Add**, in the lower right corn
 
 </div>
 
-A floating confirmation window will be shown. Click at the **Add to Report** button to save:
 
-<div style={{textAlign: 'center'}}>
+Your automatically generated dashboard will be displayed. You can also create your own custom dashboards!
 
-![img](../../static/img/datastudio-img10.png)
+## Support
 
-</div>
+If you have any questions or need help using our product, please don't hesitate to contact our [support team](http://XX). 
 
-Your automatically generated **Dashboard** will be shown. It is also possible to create Dashboards of your own:
+Resources
 
-<div style={{textAlign: 'center'}}>
+By exploring our content, you'll find resources to help you understand the importance of security applications data:
 
-![img](../../static/img/datastudio-img11.png)
-
-</div>
+[The importance of a platform for managing an AppSec program:](https://bit.ly/42JEfrq) We invite you to learn why an AppSec management platform is essential for companies that want to keep their applications safe and secure.
