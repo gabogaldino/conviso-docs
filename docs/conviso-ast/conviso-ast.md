@@ -22,9 +22,9 @@ With Conviso AST, you can analyze your source code and check if it uses open sou
 
 Scan directly from your terminal with the **Conviso CLI**; **[see the tutorial here](../cli/installation.md)**.
 
-You can also implement **Conviso AST directly in your DevOps/DevSecOps pipeline**, whether on Github Actions, Gitlab, Jenkins, and many others; **discover[ our integrations here](../integrations/integrations_intro.md)**.
+You can also implement **Conviso AST directly in your DevOps/DevSecOps pipeline**, whether on Github Actions, Gitlab, Jenkins, and many others; **discover[our integrations here](../integrations/integrations_intro.md)**.
 
-The analysis results are sent to Conviso Platform, where you can view, prioritize and fix the vulnerabilities found using our **[Vulnerability Management](../general/vulnerabilities_management.md)** feature.
+The analysis results are sent to Conviso Platform, where you can view, prioritize and fix the vulnerabilities found using our **[Vulnerability Management](../vulnerabilities/manage-vulnerability.md)** feature.
 
 ## Conviso Static Application Security Testing (SAST): The Conviso SASTBOX
 

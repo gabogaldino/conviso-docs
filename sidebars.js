@@ -35,28 +35,6 @@ module.exports = {
       ]
     },
     {
-      type: "category",
-      label: "AppSec Starter Training",
-      items: [
-        'training/introduction',
-        'training/lesson01',
-        'training/lesson02',
-        'training/lesson03',
-        'training/lesson04',
-        'training/lesson05',
-        'training/lesson06',
-        'training/lesson07',
-        'training/lesson08',
-        'training/lesson09',
-        'training/lesson10',
-        'training/lesson11',
-        'training/lesson12',
-        'training/lesson13',
-        'training/lesson14',
-        'training/lesson15'
-      ],
-    },
-    {
       CLI: [
         'cli/installation',
         'cli/ast',
@@ -67,35 +45,26 @@ module.exports = {
     },
     {
       type: "category",
-      label: "Guides",
+      label: "Secure by Design",
       items: [
-        'guides/code-review-strategies',
-        {
-          type: "category",
-          label: "Burp Extension",
-          items: [
-            'guides/burp-extension/home',
-            'guides/burp-extension/add-extension-to-burp',
-            'guides/burp-extension/define-endpoint',
-            'guides/burp-extension/test-api-key',
-            'guides/burp-extension/issues-tab',
-            'guides/burp-extension/auto-fill',
-            'guides/burp-extension/as-new-issue',
-            'guides/burp-extension/as-new-issue-with-evidence',
-            'guides/burp-extension/as-evidence',
-            'guides/burp-extension/requirements-tabs',
-            'guides/burp-extension/finish-activity',
-            'guides/burp-extension/not-applicable-activity',
-            'guides/burp-extension/not-started',
-            'guides/burp-extension/restart-activity',
-            'guides/burp-extension/not-applicable',
-            'guides/burp-extension/working-analysis',
-            'guides/burp-extension/reload-working-analyses'
-          ]
-        },
-
-      ]
+        'secure-by-design/overview',
+        'secure-by-design/threat-modeling'
+      ],
     },
+    {
+      type: "category",
+      label: "Vulnerability Management",
+      items: [
+        'vulnerabilities/manage-vulnerability', 
+        'vulnerabilities/creating-vulnerabilities',
+        'vulnerabilities/viewing-application-results',
+        'vulnerabilities/severity-levels',
+        'vulnerabilities/defect-tracker-integration',  
+        'vulnerabilities/integration-policies',            
+        'vulnerabilities/resolution-guide',    
+        'vulnerabilities/vulnerabilities-templates',    
+      ]
+    },  
     {
       type: "category",
       label: "Integrations",
@@ -201,19 +170,42 @@ module.exports = {
     },
     {
       type: "category",
+      label: "Guides",
+      items: [
+        'guides/code-review-strategies',
+        {
+          type: "category",
+          label: "Burp Extension",
+          items: [
+            'guides/burp-extension/home',
+            'guides/burp-extension/add-extension-to-burp',
+            'guides/burp-extension/define-endpoint',
+            'guides/burp-extension/test-api-key',
+            'guides/burp-extension/issues-tab',
+            'guides/burp-extension/auto-fill',
+            'guides/burp-extension/as-new-issue',
+            'guides/burp-extension/as-new-issue-with-evidence',
+            'guides/burp-extension/as-evidence',
+            'guides/burp-extension/requirements-tabs',
+            'guides/burp-extension/finish-activity',
+            'guides/burp-extension/not-applicable-activity',
+            'guides/burp-extension/not-started',
+            'guides/burp-extension/restart-activity',
+            'guides/burp-extension/not-applicable',
+            'guides/burp-extension/working-analysis',
+            'guides/burp-extension/reload-working-analyses'
+          ]
+        },
+
+      ]
+    },
+    {
+      type: "category",
       label: "Onpremises",
       items: [
         'onpremises/overview',
         //'onpremises/installation',
         //'onpremises/configuration'
-      ],
-    },
-    {
-      type: "category",
-      label: "Secure by Design",
-      items: [
-        'secure-by-design/overview',
-        'secure-by-design/threat-modeling'
       ],
     },
     {
@@ -245,14 +237,33 @@ module.exports = {
         'general/assets_management',
         'general/bug_bounty',
         'general/email_notifications',
-        'general/integration_policies',
         'general/projects_management',
         'general/requirements',
         'general/resources',
         'general/user_management',
-        'general/vulnerabilities_management',
-        'general/vulnerabilities_templates',
         'general/contributing'
+      ],
+    },
+    {
+      type: "category",
+      label: "AppSec Starter Training",
+      items: [
+        'training/introduction',
+        'training/lesson01',
+        'training/lesson02',
+        'training/lesson03',
+        'training/lesson04',
+        'training/lesson05',
+        'training/lesson06',
+        'training/lesson07',
+        'training/lesson08',
+        'training/lesson09',
+        'training/lesson10',
+        'training/lesson11',
+        'training/lesson12',
+        'training/lesson13',
+        'training/lesson14',
+        'training/lesson15'
       ],
     },
   ],

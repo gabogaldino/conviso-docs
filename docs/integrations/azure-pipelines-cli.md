@@ -86,7 +86,7 @@ jobs:
 
 **Note:** To scan your repository with AST, you must have a registered project on the Conviso Platform. The Project Code is found on the specific project page. You also need your API Key, which [you can find using this tutorial](https://docs.convisoappsec.com/api/generate-apikey).
 
-The identified vulnerabilities will be automatically sent to your Project on Conviso Platform. Now you can use the [Vulnerabilities Management](https://docs.convisoappsec.com/general/vulnerabilities_management) resource to work on the correction flow.
+The identified vulnerabilities will be automatically sent to your Project on Conviso Platform. Now you can use the [Vulnerabilities Management](/vulnerabilities/manage-vulnerability.md) resource to work on the correction flow.
 
 For manual specification of the diff range, you can refer to the provided example in the document.
 

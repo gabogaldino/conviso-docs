@@ -32,7 +32,7 @@ When everything goes well, you will receive the following message in the termina
 The results were successfully imported!
 ```
 
-The identified vulnerabilities will be automatically sent to your Project on Conviso Platform, now you can use the [Vulnerabilities Management](../general/vulnerabilities_management.md) resource to work on the correction flow.
+The identified vulnerabilities will be automatically sent to your Project on Conviso Platform, now you can use the [Vulnerabilities Management](../vulnerabilities/manage-vulnerability.md) resource to work on the correction flow.
 
 
 ## Integrate the SARIF importation with Github Actions 

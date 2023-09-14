@@ -121,7 +121,7 @@ Review the results carefully and take appropriate action based on the specific d
 </div>
 
 
-[See how it works here](https://docs.convisoappsec.com/general/vulnerabilities_management).
+[See how it works here](/vulnerabilities/manage-vulnerability.md).
 
 ## Step 8 - Prepare to handle vulnerabilities through *just in time* training
 
@@ -179,7 +179,7 @@ In "Intelligence", under the Vulnerabilities Template section, you can update an
 
 </div>
 
-[Learn the process here.](/general/vulnerabilities_templates.md)
+[Learn the process here.](/vulnerabilities/vulnerabilities-templates.md)
 
 ## Step 12 - Still have questions? Reach out to our Security Experts
 

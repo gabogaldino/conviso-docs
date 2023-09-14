@@ -40,7 +40,7 @@ In this section, you'll find all the vulnerabilities detected in the application
 
 Such transparent categorization allows users to prioritize their efforts based on the criticality of each vulnerability. 
 
-By clicking on "View All," users will access the [Vulnerability Management](../general/vulnerabilities_management.md) page, where they can obtain more detailed information about each vulnerability and take appropriate actions to address them.
+By clicking on "View All," users will access the [Vulnerability Management](../vulnerabilities/manage-vulnerability.md) page, where they can obtain more detailed information about each vulnerability and take appropriate actions to address them.
 
 ## Dive into AppSec Insights: You Might Like to Know
 
